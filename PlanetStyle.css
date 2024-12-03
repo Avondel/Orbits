@@ -1,0 +1,89 @@
+#console{
+	background-color: Black;
+}
+#notes{
+	font-weight: bold;
+}
+#data{
+	height: 80px;
+}
+
+#PlayArea{
+	background-color: Black;
+	color: Yellow;
+}
+
+#Help{
+	top: 20px;
+	left: 20px;
+	position: absolute;
+}
+
+.footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	left: 0px;
+	/* Height of the footer*/ 
+	height: 80px;
+	background: #eeffdd;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.footer2 {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	left: 0px;
+	/* Height of the footer*/ 
+	height: 80px;
+	text-align: center;
+	background: #eeffdd;
+}
+
+#marker{
+	width: 16px;
+	height: 10px;
+	top: 10px;
+	left: 30px;
+	background-color: Orange;
+	position: absolute;
+}
+
+#light{
+	width: 30px;
+	height: 30px;
+	//top: 15px;
+	//left: 160px;
+	border-radius: 50%;
+	background-color: #f3f4f5;
+	position: absolute;
+}
+
+#dark1{
+	width: 15px;
+	height: 15px;
+	top: 0px;
+	left: 15px;
+	border-top-right-radius: 100%;
+	//border-bottom-left-radius: 100%;
+	//border-bottom-right-radius: 100%;
+	background-color: Red;
+	position: absolute;
+}
+
+#dark2{
+	width: 15px;
+	height: 15px;
+	top: 15px;
+	left: 15px;
+	//border-top-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	background-color: Red;
+	position: absolute;
+}

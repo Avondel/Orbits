@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Orbit of the Planets</title>
+	<link rel="stylesheet" type = "text/css" href = "OrbitsStyle.css">
+	<link rel="stylesheet" type = "text/css" href = "PlanetStyle.css">
+
+</head>
+<body  id="PlayArea" onload="myFunction()" onmousedown = "onClick1(event)" >
+	<h2><center>Orbits of Planets</center></h2>
+	<select id="planetList" onchange="drawPlanet(this)"	>
+		<option value="1" selected>Remove Planet</option>
+		<option value="2">No Rotation</option>
+		<option value="3">Tidally Locked</option>
+		<option value="4">Mercury</option>
+		<option value="5">Venus</option>
+	</select>
+	<div id="console">
+		<div id="notes">Notes:</div>
+		<div id="data"></div>
+	</div>
+	<div><pre>   <button onclick="rotatePlanet()" id = "start">Start</button>   <button onclick="resetCounters()" id = "reset">Reset</button></pre></div>
+	<div id = "info">
+		<p><pre>    Solar Days:  <label id="solarDays">1</label></pre></p>
+		<p><pre> Sidereal Days:  <label id="siderealDays">2</label></pre></p>
+		<p><pre>        Orbits:  <label id="Orbits">0</label></pre></p>
+		<p><pre>   Earth Years:  <label id="earthYears">4</label></pre></p>
+	</div>
+
+      <div id="Sun" onmousedown="mouseDownItem(event)">
+      </div>
+</body>
+<script src = "globals.js"></script>
+<script src = "PlanetJava.js"></script>
+<script src = "Atoms.js"></script>
+<script src = "general.js"></script>
+<script src = "myUtilities.js"></script>
+			<!--/div><div id="buttonFunctions">
+				<button value="ElectronPair" id="ElectronPair" onclick="createPair()" disabled>Electrons</button>
+				<button value="DeleteEl" id="DeleteEl" onclick="deleteEl()">Delete</button>
+				<button value="Change" id="Change" onclick="differentAtom(event)" disabled>Change Atom</button>
+				<button value="Clear" id="Clear" onclick="clearMolecule()">Clear/Restart</button>
+			</div></span>
+			<span class="legal">Copyright 2022, Carolyn Righeimer</span>
+	</div/!-->
+</html>
